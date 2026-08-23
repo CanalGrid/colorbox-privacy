@@ -7,6 +7,7 @@ Static HTML, no build step, no dependencies — served by GitHub Pages.
 |---|---|---|
 | Privacy policy | `privacy/index.html` | `https://canalgrid.github.io/colorbox-privacy/privacy/` |
 | Feedback & support | `privacy/feedback.html` | `https://canalgrid.github.io/colorbox-privacy/privacy/feedback.html` |
+| Delete your data | `privacy/delete-account.html` | `https://canalgrid.github.io/colorbox-privacy/privacy/delete-account.html` |
 | Root redirect | `index.html` | `https://canalgrid.github.io/colorbox-privacy/` → privacy policy |
 
 ## Turning on GitHub Pages
@@ -19,6 +20,7 @@ The site is usually live a minute or two later.
 - **App content → Privacy policy** — the privacy policy URL (required before you can publish)
 - **Store listing → Support → Website** — either page works; the feedback page is friendlier
 - **Store listing → Support → Email** — `vmwnpela@gmail.com`
+- **App content → Data deletion** — the "Delete your data" URL (required once you declare the app collects any data)
 
 ## Keeping it accurate
 
