@@ -5,10 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Feedback &amp; Support — HuePop</title>
 <meta name="description" content="Report a bug, ask about a Daily Puzzle, or suggest an idea for Color Block: HuePop.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#FBF4E8">
 <style>
   :root{
-    --bg:#201612; --bg2:#2B1E16; --surface:#38271C; --line:#4A3527;
-    --ink:#F5E9DA; --muted:#C4AF99; --accent:#E0A962; --good:#8FCB9B;
+    --bg:#F6ECDB; --bg2:#FFF9F0; --surface:#FFFAF2; --line:#E6DAC7;
+    --ink:#233267; --muted:#6B7499; --accent:#E8505F; --good:#2E9E5B;
   }
   *{box-sizing:border-box}
   body{
@@ -23,16 +25,16 @@
   header{padding:28px 0 8px; border-bottom:1px solid var(--line); margin-bottom:32px}
   .badge{
     display:inline-block; padding:6px 14px; border-radius:999px;
-    background:var(--accent); color:#2B1E16; font-weight:700; font-size:13px;
+    background:var(--accent); color:#FFF9F0; font-weight:700; font-size:13px;
     letter-spacing:.06em; text-transform:uppercase;
   }
   h1{font-size:clamp(28px,6vw,40px); line-height:1.2; margin:18px 0 6px; letter-spacing:-.01em}
   .sub{color:var(--muted); margin:0 0 18px}
   h2{font-size:clamp(20px,4vw,24px); margin:40px 0 12px; color:var(--accent)}
   h3{font-size:17px; margin:0 0 8px}
-  p,li{color:#EADDCB}
+  p,li{color:#33406F}
   a{color:var(--accent); text-decoration:underline; text-underline-offset:3px}
-  a:hover{color:#F0C48C}
+  a:hover{color:#FF6B7B}
   ul{padding-left:22px}
   li{margin:7px 0}
   .card{
@@ -41,23 +43,23 @@
   }
   .btn{
     display:inline-block; margin:8px 8px 8px 0; padding:14px 26px; border-radius:12px;
-    background:var(--accent); color:#2B1E16 !important; font-weight:700;
+    background:var(--accent); color:#FFF9F0 !important; font-weight:700;
     text-decoration:none; border:0; cursor:pointer;
     font:inherit; font-weight:700;
   }
-  .btn:hover{background:#F0C48C; color:#2B1E16 !important}
+  .btn:hover{background:#FF6B7B; color:#FFF9F0 !important}
   .btn.ghost{background:transparent; color:var(--accent) !important; border:2px solid var(--accent)}
-  .btn.ghost:hover{background:rgba(224,169,98,.12); color:var(--accent) !important}
+  .btn.ghost:hover{background:rgba(255,95,109,.1); color:var(--accent) !important}
   .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin:20px 0}
   .grid .card{margin:0}
   pre{
-    background:rgba(0,0,0,.32); border:1px solid var(--line); border-radius:12px;
-    padding:16px 18px; overflow-x:auto; color:#EADDCB;
+    background:rgba(35,50,103,.1); border:1px solid var(--line); border-radius:12px;
+    padding:16px 18px; overflow-x:auto; color:#33406F;
     font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:14px; line-height:1.6;
     white-space:pre-wrap;
   }
   code{
-    background:rgba(0,0,0,.3); padding:2px 7px; border-radius:6px;
+    background:rgba(35,50,103,.08); padding:2px 7px; border-radius:6px;
     font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:14px;
   }
   .note{color:var(--muted); font-size:14px}
@@ -68,6 +70,9 @@
     color:var(--muted); font-size:14px;
   }
   footer a{color:var(--muted)}
+  h1,h2,.badge{font-family:Fredoka,-apple-system,"Segoe UI",sans-serif}
+  .badge{background:linear-gradient(90deg,#FF6B7B,#3EB5FF 40%,#FFC83D 65%,#B682F0);color:#fff !important;text-shadow:0 1px 2px rgba(26,37,82,.35)}
+  .card{box-shadow:0 4px 0 var(--line),0 10px 24px rgba(80,60,30,.08)}
 </style>
 </head>
 <body>
